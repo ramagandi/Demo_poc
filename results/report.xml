@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.6"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;a[10]&apos; accessed at index 10, which is out of bounds." verbose="Array &apos;a[10]&apos; accessed at index 10, which is out of bounds." cwe="788" file0="C:/Users/gandi.ramalakshmi/POC/results/sample.c">
+            <location file="C:\Users\gandi.ramalakshmi\POC\results\sample.c" line="5" column="2" info="Array index out of bounds"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[10]&apos; is assigned a value that is never used." verbose="Variable &apos;a[10]&apos; is assigned a value that is never used." cwe="563" file0="C:/Users/gandi.ramalakshmi/POC/results/sample.c">
+            <location file="C:\Users\gandi.ramalakshmi\POC\results\sample.c" line="5" column="7"/>
+            <symbol>a[10]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="C:/Users/gandi.ramalakshmi/POC/results/sample.c">
+            <location file="C:\Users\gandi.ramalakshmi\POC\results\sample.c" line="3" column="5"/>
+            <symbol>a</symbol>
+        </error>
+    </errors>
+</results>

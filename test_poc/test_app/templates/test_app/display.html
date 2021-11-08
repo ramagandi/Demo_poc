@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="Lightskyblue">
+    <h2>Employees Details</h2>   
+    <table border="1">
+    <tr>
+    <th>Employee Name</th>
+    <th>Employee ID</th>
+  </tr>
+    {% for key, value in details.items %}
+    <tr>
+        <td>{{ key }}</td>    
+        <td>{{ value }}</td>
+    </tr>
+    {% endfor %} 
+   </table> 
+</body>
+</html>

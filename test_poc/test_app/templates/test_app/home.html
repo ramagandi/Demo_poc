@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style type="text/css">
+form {
+    text-align : center;
+}
+    </style>
+</head>
+
+<body bgcolor="Lightskyblue">
+    <form method="POST" action="insert">
+    {% csrf_token %}
+        <center>  <h1> Register Employee </h1> </center> <br><br>
+
+	<label> Enter Employee name </label>    
+	<input type=text name="name"><br><br>
+	<label> Enter Employee id </label> 
+	<input type=text name="id"><br><br>
+	<input type=submit value=Submit><br><br>
+    </form>
+    <center><h1> View Employees Details</h1></center><br>
+    <form method="POST" action="display">
+    {% csrf_token %}
+        <input type=submit value=ViewDetails>
+   </form>
+</body>
+</html>

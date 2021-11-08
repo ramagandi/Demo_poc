@@ -1,0 +1,5 @@
+--enable=all
+--xml
+C:\Users\gandi.ramalakshmi\POC\results\sample.c
+--plist-output=C:\Users\gandi.ramalakshmi\POC\results
+--output-file=C:\Users\gandi.ramalakshmi\POC\results\report.xml
